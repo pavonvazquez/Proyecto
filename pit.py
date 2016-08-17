@@ -1,5 +1,6 @@
 n = int(input("Ingresa el numero:  "))
-print("El valor del numero es:  %d"%n)
+print("\t", end="")
 
 for i in range(n):
-	print(i)
+	print("%d\t" %(i+1),end="")
+print("")
